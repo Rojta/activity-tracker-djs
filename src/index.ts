@@ -9,6 +9,7 @@ const client = new Client({
 });
 
 client.once(Events.ClientReady, async (c) => {
+  console.log("Started");
   console.log(`Ready! Logged in as ${c.user.tag}!`);
 
   const checkActivity = async () => {
