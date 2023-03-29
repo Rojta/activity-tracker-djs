@@ -1,0 +1,33 @@
+{
+  "name": "wol-discord",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node .",
+    "dev": "nodemon --config nodemon.json src/index.ts",
+    "pulldb": "npx prisma db pull && npx prisma generate",
+    "pulldbr": "npx prisma db pull && npx prisma generate && npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rojta/wol-discord.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rojta/wol-discord/issues"
+  },
+  "homepage": "https://github.com/Rojta/wol-discord#readme",
+  "dependencies": {
+    "discord.js": "^14.8.0",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.2"
+  }
+}
