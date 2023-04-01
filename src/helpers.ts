@@ -1,5 +1,5 @@
 import { blue, bold, dim, green, red, yellow } from "colorette";
-import { Activity, Client } from "discord.js";
+import { Client } from "discord.js";
 import activity from "./models/activity";
 
 export function log(...args: any[]) {

@@ -1,4 +1,4 @@
-import mongoose, { Schema, Types, model } from "mongoose";
+import mongoose, { Schema } from "mongoose";
 
 export interface Activity {
   versionId?: number;
@@ -119,7 +119,5 @@ const activitySchema = new Schema<Activity>(
   { timestamps: true }
 );
 
-// export default (User as mongoose.Model<User>) ||
-//   model("Activity", activitySchema, "activities");
 export default (mongoose.models.Activity as mongoose.Model<Activity>) ||
   mongoose.model("Activity", activitySchema);

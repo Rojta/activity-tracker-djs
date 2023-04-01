@@ -1,14 +1,12 @@
 {
-  "name": "wol-discord",
+  "name": "activity-tracker-djs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "build": "tsc",
     "start": "node .",
-    "dev": "nodemon --config nodemon.json src/index.ts",
-    "pulldb": "npx prisma db pull && npx prisma generate",
-    "pulldbr": "npx prisma db pull && npx prisma generate && npm run dev"
+    "dev": "nodemon --config nodemon.json src/index.ts"
   },
   "repository": {
     "type": "git",
