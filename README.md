@@ -29,7 +29,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#">About The Project</a>
+      <a href="#about-project">About The Project</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
@@ -49,6 +49,10 @@
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
+
+## About The Project
+
+<a name="about-project"></a>
 
 ### Built With
 
