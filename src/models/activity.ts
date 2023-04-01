@@ -2,6 +2,7 @@ import mongoose, { Schema } from "mongoose";
 
 export interface Activity {
   versionId?: number;
+  userId?: string;
   name?: string;
   type?: number;
   url?: string;
@@ -37,6 +38,10 @@ const activitySchema = new Schema<Activity>(
     versionId: {
       type: Number,
       default: 1,
+    },
+    userId: {
+      type: String,
+      default: null,
     },
     name: {
       type: String,

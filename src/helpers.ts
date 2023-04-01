@@ -91,6 +91,7 @@ export async function checkActivity(client: Client): Promise<void> {
 
     // Create new activity
     const newActivity = new activity({
+      userId: member.user.id,
       name: foundActivity.name,
       type: foundActivity.type,
       url: foundActivity.url,

@@ -6,6 +6,8 @@ import ms from "ms";
 import { connect } from "mongoose";
 import { bold, green, red } from "colorette";
 
+// TODO: Add support for multiple/any application ids
+
 const client = new Client({
   intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildPresences],
 });
