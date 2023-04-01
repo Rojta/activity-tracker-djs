@@ -145,6 +145,7 @@ Project Link: [https://github.com/Rojta/activity-tracker-djs](https://github.com
 - [Choose an Open Source License](https://choosealicense.com)
 - [Img Shields](https://shields.io)
 - [ReadME Template](https://github.com/othneildrew/Best-README-Template)
+- [Logo Template](https://auto.creavite.co/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
