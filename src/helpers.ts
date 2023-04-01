@@ -109,9 +109,8 @@ export async function checkActivity(client: Client): Promise<void> {
       buttons: foundActivity.buttons,
       timestamps: {
         created: foundActivity.createdTimestamp,
-        start: foundActivity.timestamps?.start
-          ? foundActivity.timestamps.start
-          : new Date(),
+        start: foundActivity.timestamps?.start,
+        end: foundActivity.timestamps?.end,
       },
     });
 
