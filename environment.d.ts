@@ -4,8 +4,8 @@ declare global {
       CLIENT_TOKEN: string;
       GUILD_ID: string;
       USER_ID: string;
-      APPLICATION_ID: string;
-      GAMES_FILE_PATH: string;
+      APPLICATION_NAME: string;
+      MONGODB_URI: string;
     }
   }
 }
