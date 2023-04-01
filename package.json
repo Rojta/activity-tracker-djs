@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Rojta/wol-discord.git"
+    "url": "git+https://github.com/Rojta/activity-tracker-djs.git"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Rojta/wol-discord/issues"
+    "url": "https://github.com/Rojta/activity-tracker-djs/issues"
   },
-  "homepage": "https://github.com/Rojta/wol-discord#readme",
+  "homepage": "https://github.com/Rojta/activity-tracker-djs#readme",
   "dependencies": {
     "colorette": "^2.0.19",
     "discord.js": "^14.8.0",
