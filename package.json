@@ -4,7 +4,7 @@
   "description": "Simple Discord.js v14 bot that tracks user activity for a specific application name and saves it to a database.",
   "main": "index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "rmdir /S /Q dist && tsc",
     "start": "node .",
     "dev": "nodemon --config nodemon.json src/index.ts"
   },

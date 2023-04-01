@@ -74,16 +74,9 @@ export async function checkActivity(client: Client): Promise<void> {
       return await endlastActivity();
     }
 
-    // Check if application supports timestamps
-    if (!foundActivity.timestamps?.start) {
-      log(yellow("Application does not support timestamps!"));
-      return await endlastActivity();
-    }
-
     if (
       lastActivity &&
-      lastActivity.timestamps.start.getTime() ===
-        foundActivity.timestamps.start.getTime()
+      lastActivity.timestamps.created === foundActivity.createdTimestamp
     )
       return log(yellow("Activity already logged!"));
 
@@ -115,6 +108,7 @@ export async function checkActivity(client: Client): Promise<void> {
       },
       buttons: foundActivity.buttons,
       timestamps: {
+        created: foundActivity.createdTimestamp,
         start: foundActivity.timestamps?.start
           ? foundActivity.timestamps.start
           : new Date(),

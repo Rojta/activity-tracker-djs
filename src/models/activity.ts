@@ -26,6 +26,7 @@ export interface Activity {
   };
   buttons?: [];
   timestamps?: {
+    created?: Number;
     start?: Date;
     end?: Date;
   };
@@ -111,6 +112,10 @@ const activitySchema = new Schema<Activity>(
     },
     buttons: Array,
     timestamps: {
+      created: {
+        type: Number,
+        default: null,
+      },
       start: {
         type: Date,
         default: null,
