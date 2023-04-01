@@ -10,7 +10,7 @@ export interface Activity {
   state?: string;
   applicationId?: string;
   party?: {
-    id?: number;
+    id?: string;
     size?: {
       current?: number;
       max?: number;
@@ -27,6 +27,7 @@ export interface Activity {
   buttons?: [];
   timestamps?: {
     created?: Number;
+    ended?: Number;
     start?: Date;
     end?: Date;
   };
@@ -70,7 +71,7 @@ const activitySchema = new Schema<Activity>(
     },
     party: {
       id: {
-        type: Number,
+        type: String,
         default: null,
       },
       size: {
@@ -113,6 +114,10 @@ const activitySchema = new Schema<Activity>(
     buttons: Array,
     timestamps: {
       created: {
+        type: Number,
+        default: null,
+      },
+      ended: {
         type: Number,
         default: null,
       },

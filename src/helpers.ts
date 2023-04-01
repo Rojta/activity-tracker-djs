@@ -132,10 +132,10 @@ export async function endlastActivity() {
   if (!lastActivity) return;
 
   // Check if last activity is already ended
-  if (lastActivity.timestamps.end) return;
+  if (lastActivity.timestamps.ended) return;
 
   // End last activity
-  lastActivity.timestamps.end = new Date();
+  lastActivity.timestamps.ended = Date.now();
   await lastActivity.save();
 
   log(green("Last activity ended!"));
