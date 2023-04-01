@@ -97,7 +97,7 @@ npm run dev
 
 - [ ] Add Changelog
 - [ ] Add logging to file
-- [ ] Add support for multiple/any application
+- [ ] Add support for multiple applications
 
 See the [open issues](https://github.com/Rojta/activity-tracker-djs/issues) for a full list of proposed features (and known issues).
 
