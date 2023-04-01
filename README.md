@@ -160,6 +160,6 @@ Project Link: [https://github.com/Rojta/activity-tracker-djs](https://github.com
 [issues-shield]: https://img.shields.io/github/issues/Rojta/activity-tracker-djs.svg?style=for-the-badge
 [issues-url]: https://github.com/Rojta/activity-tracker-djs/issues
 [license-shield]: https://img.shields.io/github/license/Rojta/activity-tracker-djs.svg?style=for-the-badge
-[license-url]: https://github.com/Rojta/activity-tracker-djs/blob/master/LICENSE.txt
+[license-url]: https://github.com/Rojta/activity-tracker-djs/blob/main/LICENSE.txt
 [discord.js]: https://img.shields.io/badge/discord.js-5c69eb?style=for-the-badge&logo=discord&logoColor=white
 [discordjs-url]: https://discord.js.org/
